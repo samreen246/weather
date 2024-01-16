@@ -12,7 +12,8 @@ function Apiweather(){
 
    
     function Update(){
-        const apiKey = "45ad3f23c2ca426794d42943232207"
+        // const apiKey = "45ad3f23c2ca426794d42943232207"
+        const apiKey = process.env.WEATHER_API_KEY;
         fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey} &q=${cityname}&aqi=no`)
         .then(res=>res.json())
         .then(data=>{
