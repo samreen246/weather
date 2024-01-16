@@ -1,0 +1,38 @@
+.main{
+    background-image: url(../images/black_background.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.row1{
+    background-color: rgb(126, 131, 131);
+    height: 100vh;
+}
+.main2{
+    background-image: url(../images/black_background.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 330px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    margin-top: 170px;
+    margin-bottom: 80px;
+}
+span{
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width:600px){
+    .main2{
+        margin-left: 14px;
+    }
+    .main{
+        margin-left: 14px;
+    }
+}
