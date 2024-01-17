@@ -12,7 +12,7 @@ function Apiweather(){
 
    
     function Update(){
-        fetch(`http://api.weatherapi.com/v1/current.json?key=45ad3f23c2ca426794d42943232207&q=${cityname}&aqi=no`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=45ad3f23c2ca426794d42943232207&q=${cityname}&aqi=no`)
         .then(res=>res.json())
         .then(data=>{
             setTemperature(data.current.temp_c)
