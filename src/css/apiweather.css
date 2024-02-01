@@ -31,11 +31,11 @@ span{
 @media only screen and (max-width:600px){
     .main2{
         margin-left: 14px;
-        width: 320px;
+        width: 300px;
         margin-top: 100px;
     }
     .main{
-        width: 3200px;
+        width: 300px;
         margin-left: 14px;
         margin-top: 150px;
     }
